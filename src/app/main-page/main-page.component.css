@@ -1,0 +1,22 @@
+
+a {
+    height: 22.5rem;
+    width: 20rem;
+    border: 1px solid whitesmoke;
+    border-radius: 1rem;
+    flex-direction: column;
+    display: flex;
+    overflow: hidden;
+    color: #d22f2f;
+    margin-bottom: 50px;
+    cursor: pointer;
+    margin-left: 3rem;
+    justify-content: center;
+    align-items:center;
+    background-size: cover;
+  
+   
+}
+ a:hover{
+    opacity: 0.9;
+ }

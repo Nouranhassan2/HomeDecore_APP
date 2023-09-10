@@ -1,0 +1,25 @@
+<app-header></app-header>
+<!--Selected product details-->
+<div class="row">
+<div class="col-lg-6">
+    <img [src]="product.imageUrl" >
+</div>
+<div class="col-lg-4">
+    <div class="header">
+        <span class="name">
+            {{product.name}}
+            
+        </span>
+        <div class="para"></div>
+        <p  >{{product.paragraph}}></p>
+    </div>
+    <div class="price">
+        <span>
+        {{product.price|currency}}
+    </span>
+     </div>
+<!--add to cart button-->
+     <button class="btn btn-outline-danger" (click)="addToCart()">Add to Cart</button>
+
+    </div>
+  
